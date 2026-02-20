@@ -1,0 +1,29 @@
+{
+  "A": {
+    "label": "A - Golden Hour",
+    "temperature_celsius": 3.2,
+    "battery_level_percent": 96,
+    "door_status": "closed",
+    "door_open_minutes": 0,
+    "temp_rise_rate_per_min": 0.02,
+    "risk_score": 0.12
+  },
+  "B": {
+    "label": "B - Warning",
+    "temperature_celsius": 6.3,
+    "battery_level_percent": 48,
+    "door_status": "open",
+    "door_open_minutes": 14,
+    "temp_rise_rate_per_min": 0.35,
+    "risk_score": 0.52
+  },
+  "C": {
+    "label": "C - Red Alert",
+    "temperature_celsius": 18.1,
+    "battery_level_percent": 5,
+    "door_status": "open",
+    "door_open_minutes": 32,
+    "temp_rise_rate_per_min": 1.85,
+    "risk_score": 0.96
+  }
+}
